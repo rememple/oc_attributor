@@ -15,6 +15,7 @@
 		BB9A692D231D64AC009E94E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A692C231D64AC009E94E3 /* main.m */; };
 		BB9A6937231D64AC009E94E3 /* oc_attributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A6936231D64AC009E94E3 /* oc_attributorTests.m */; };
 		BB9A6942231D64AC009E94E3 /* oc_attributorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A6941231D64AC009E94E3 /* oc_attributorUITests.m */; };
+		BB9A695723215E37009E94E3 /* TextStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A695623215E37009E94E3 /* TextStatusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BB9A693D231D64AC009E94E3 /* oc_attributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oc_attributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9A6941231D64AC009E94E3 /* oc_attributorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_attributorUITests.m; sourceTree = "<group>"; };
 		BB9A6943231D64AC009E94E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9A695523215E37009E94E3 /* TextStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatusViewController.h; sourceTree = "<group>"; };
+		BB9A695623215E37009E94E3 /* TextStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				BB9A6920231D64A8009E94E3 /* ViewController.h */,
 				BB9A6921231D64A8009E94E3 /* ViewController.m */,
 				BB9A6923231D64A8009E94E3 /* Main.storyboard */,
+				BB9A695523215E37009E94E3 /* TextStatusViewController.h */,
+				BB9A695623215E37009E94E3 /* TextStatusViewController.m */,
 				BB9A6926231D64AC009E94E3 /* Assets.xcassets */,
 				BB9A6928231D64AC009E94E3 /* LaunchScreen.storyboard */,
 				BB9A692B231D64AC009E94E3 /* Info.plist */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB9A6922231D64A8009E94E3 /* ViewController.m in Sources */,
+				BB9A695723215E37009E94E3 /* TextStatusViewController.m in Sources */,
 				BB9A692D231D64AC009E94E3 /* main.m in Sources */,
 				BB9A691F231D64A8009E94E3 /* AppDelegate.m in Sources */,
 			);
